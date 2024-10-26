@@ -1,0 +1,126 @@
+*{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+    /* width: 100%; */
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.navbar{
+    height: 70px;
+    width: 100%;
+    background-color: white;
+    border-bottom: 2px solid black;
+    background-color: #c77dff;
+}
+.navbar2{
+    height: 70px;
+    width: 50%;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    left: 800px;
+    font-size: 20px;    
+}
+.navbar2 a:hover{
+    border-bottom: 2px solid black;
+}
+.nav-logo{
+   height: 60px;
+   width: 60px;
+   border-radius: 10px;
+   background-image: url("images/logo.jpg");
+   background-size: cover;
+   position: absolute;
+   top: 5px;
+   left: 10px;
+}
+.signup{
+    height: 35px;
+    width: 80px;
+    border-radius: 5px;
+    border: 2px solid black;
+    position: relative;
+    right: 10px;
+    cursor: pointer;
+}
+section{
+    height: 700px;
+    width: 100%;
+}
+.hero-img{
+    height: 100vh;
+    width: 50%;
+    background-image: url("images/Hero2.jpg");
+    border-radius: 10px;
+    background-size: cover;
+    position: absolute;
+    top: 80px;
+    right: 30px;
+}
+h1{
+    font-size: 50px;
+}
+p{
+    font-size: 20px;
+    position: relative;
+    top: 15px;
+}
+.hero-p{
+    text-align: left;
+    position: relative;
+    top: 250px;
+    left: 50px;
+    z-index: -1;
+}
+.hero-button{
+    position: relative;
+    top: 300px;
+    left: 50px;
+    height: 40px;    
+    width: 150px;
+    border-radius: 10px;
+    font-size: 16px;
+    background-color: #c77dff;
+    
+}
+.footer-main{
+    height: 250px;
+    width: 100%;
+    background-color: #0d3b66;
+    color:#fefae0;
+    display: inline-flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 2px solid white;
+}
+.footer-p1{
+    text-decoration: underline;
+}
+.footer-p2{
+    margin-bottom: 30px;
+    text-decoration: underline;
+}
+ul a{
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #fefae0;
+}
+.footer-main2{
+    height: 50px;
+    width: 100%;
+    background-color: #415a77;
+    color:#fefae0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

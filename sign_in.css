@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Agdasima", sans-serif;
+}
+body{
+    background-image: url("images/Electronic-Waste-Background-Wallpaper-85091.jpg");
+    background-size: cover;
+}
+header{
+    position: relative;
+    padding: 0.2rem;
+}
+.nav-bar{
+    height: 60px;
+    width: 100%;
+}
+li{
+    list-style: none;
+    font-size: 1.3rem;
+}
+li a{
+    text-decoration: none ;
+    color: #fff;
+}
+a:hover{
+    border-bottom: 2px solid white;
+}
+.nav-bar ul{
+    display: flex;
+    align-items: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    padding-top: 20px;
+}
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main{
+    height: 500px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 5px 20px 50px white;
+    position: relative;
+    top: 50px;    
+    left: -200px;
+}
+#chk{
+    display: none;
+}
+.signup{
+    height: 100%;
+    width: 100%;
+}
+label{
+    color: white;
+    font-size: 2.3rem;
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .5s ease-in-out;
+}
+input{
+    width: 60%;
+    height: 10px;
+    background: lightgray;
+    justify-content: center;
+    display: flex;
+    margin: 20px auto;
+    padding: 12px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+button{
+    height: 40px;
+    width: 60%;
+    margin: 10px auto;
+    justify-content: center;
+    display: block;
+    background: #cdb4db;
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+    margin-top: 30px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    transition: .2s ease-in;
+    cursor: pointer;
+}
+button:hover{
+    background: #5e548e;
+}
+.login{
+    height: 460px;
+    background: #9381ff;
+    border-radius: 60% / 10%;
+    transform: translateY(-180px);
+    transition: ease-in; 
+}
+.login label{
+    color: white;
+    transform: scale(.6);
+}
+#chk:checked ~ .login{
+    transform: translateY(-500px);
+}
+#chk:checked ~ .login label{ 
+    transform: scale(1);
+}
+#chk:checked ~ .signup label{
+    transform: scale(.6);
+}
